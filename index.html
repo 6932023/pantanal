@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Descubra a beleza e a importância das araucárias e o bioma que as sustenta."
+    />
+    <title>PANTANAL</title>
+    <link rel="shortcut icon" href="imagens/planeta-terra.svg" type="image/x-icon">
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 56px;
+        font-family: "Montserrat", sans-serif;
+        background-color: #f0f4f8;
+        color: #272424;
+      }
+      .hero-section {
+        background: url("imagens/1.jpg") no-repeat center
+          center;
+        background-size: cover;
+        color: white;
+        padding: 120px 0;
+        text-align: center;
+        height: 90vh;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(68, 17, 10, 0.507);
+        z-index: 1;
+      }
+      .hero-section h1 {
+        font-size: 8rem;
+        text-shadow: 7px 12px 8px rgba(0, 0, 0, 0.8);
+        margin-bottom: 20px;
+        z-index: 2;
+        font-weight: 800;
+      }
+      .hero-section p {
+        font-size: 1.5rem;
+        color: #e0e0e0;
+        z-index: 2;
+      }
+      .navbar {
+        background-color: #093301;
+      }
+      .navbar-brand {
+        font-size: 1.75rem;
+        font-weight: 800;
+      }
+      .navbar-nav .nav-item .nav-link {
+        font-size: 1.2rem;
+        color: #f0f0f0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: 500;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .navbar-nav .nav-item .nav-link:hover,
+      .navbar-nav .nav-item .nav-link:focus {
+        transition: 0.5S;
+        background-color: #e6e6e6;
+        color: #000142;
+      }
+      .navbar-toggler {
+        border-color: #003300;
+      }
+      .navbar-toggler-icon {
+        background-image: url('imagens/planeta-terra.svg');
+      }
+      .section-title {
+        font-size: 2.75rem;
+        margin-bottom: 40px;
+        text-align: center;
+        font-weight: 800;
+        color: #01420a;
+      }
+      .lead {
+        font-size: 1.25rem;
+        line-height: 1.6;
+        color: #555;
+        text-align: justify;
+      }
+      .card-img-top {
+        height: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+        transition: transform 0.4s ease;
+      }
+      .card-img-top:hover {
+        transform: scale(1.1);
+      }
+      .card-body {
+        padding: 20px;
+      }
+      footer {
+        background-color: #ffffff;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;
+      }
+      footer p {
+        margin: 0;
+      }
+      .conservation-section img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        transition: transform 0.4s ease;
+        background-color: white;
+      }
+
+      .conservation-section{
+        text-align: justify;
+      }
+      
+      .bg-light {
+        background-color: #e9f5e1 !important;
+      }
+      .card {
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .card {
+        text-align: justify;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">PATANAL</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#conservation">Estratégias de Conservação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#animais">Animais do Pantanal</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero-section">
+      <div class="container">
+        <h1>PANTANAL</h1>
+    
+      </div>
+    </header>
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="section-title">SOBRE O PANTANAL</h2>
+        <p class="lead">
+          FAUNA: Entre os animais do Pantanal, estão espécies encontradas também
+          em diversos biomas vizinhos. Apesar de serem encontradas populações
+          numerosas de algumas espécies, há poucos registros de endemismo nesse
+          bioma. Entre as espécies animais mais conhecidos dele, estão: o
+          cervo-do-pantanal, a onça-pintada, o jacaré-do-pantanal, o tuiuiú, o
+          tamanduá-bandeira, o dourado, o tuiuiú e a ariranha. O tuiuiú é
+          considerado um símbolo pantaneiro. O Pantanal é considerado um
+          santuário da biodiversidade brasileira mesmo sendo o menor dos biomas
+          no país em área (150 mil km²). Ele está distribuído nos estados do
+          Mato Grosso e Mato Grosso do Sul e é considerado a sexta maior área
+          inundada do mundo."
+        </p>
+
+        <p class="lead">
+          FLORA: Por ser um bioma com ligações próximas à Floresta Amazônica,
+          mata atlântica e ao Cerrado, a paisagem pantaneira é bem diversificada
+          com espécies como cambará-lixeira, canjiqueira e carandá, que se
+          estabelecem em campos inundáveis de diversos tipos, incluindo brejos e
+          lagoas com plantas típicas como camalotes e árvores de médio e grande
+          porte, típicas da Amazônia, mas também conta com a presença de árvores
+          tortuosas de baixo e médio porte, muito comuns no Cerrado.
+        </p>
+
+        <p class="lead">
+          CLIMA:O Pantanal é caracterizado por um clima tropical úmido com duas
+          estações distintas: uma estação seca, de abril a setembro, e uma
+          estação chuvosa, de outubro a março. Durante a estação chuvosa, as
+          planícies alagáveis do Pantanal são inundadas pelas águas dos rios que
+          transbordam, criando um vasto sistema de pântanos, lagoas e áreas
+          alagadas.
+        </p>
+
+        <p class="lead">
+          TERRENO: O terreno do Pantanal é predominantemente composto por
+          planícies de baixa altitude, intercaladas por cordilheiras e chapadas
+          que se elevam levemente acima do nível das águas durante a estação
+          seca. A vegetação varia de savanas gramíneo-lenhosas nas áreas mais
+          secas a florestas ribeirinhas ao longo dos rios e córregos
+          permanentes. Este bioma é reconhecido por sua rica biodiversidade,
+          abrigando uma variedade impressionante de espécies de fauna e flora
+          adaptadas às condições sazonais de inundação e seca. A combinação
+          única de clima, terreno e hidrologia torna o Pantanal um dos
+          ecossistemas mais singulares e importantes do planeta.
+        </p>
+      </div>
+    </section>
+
+    <section id="conservation" class=" py-5 conservation-section">
+      <div class="container">
+        <h2 class="section-title">ESTRATÉGIA DE CONSERVAÇÃO</h2>
+        <div class="row">
+          <div class="col-md-6>
+          
+            <p class="lead">
+              Estimular a criação de reservas particulares em toda a bacia do
+              Pantanal, proteger animais silvestres, apoiar iniciativas
+              econômicas ecologicamente corretas e promover o uso racional dos
+              recursos naturais renováveis, o turismo responsável e a educação
+              ambiental são algumas das ações do Programa Pantanal para Sempre,
+              que quer um futuro saudável para toda a região.
+            </p>
+            <img
+              src="imagens/1.jpg"
+              alt="ipe"
+            />
+          
+           
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="animais" class="py-5">
+      <div class="container">
+        <h2 class="section-title">ANIMAIS DO PANTANAL</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="imagens/onça.webp"
+                class="card-img-top"
+                alt="p 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  A onça-pintada é importante para as ações de conservação por ser uma espécie guarda-chuva. Suas exigências ecológicas englobam todas as exigências das demais espécies que ocorrem no seu ambiente. Por isso preservar a espécie é salvaguardar vários outros animais do mesmo ecossistema.
+                </p>
+'              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="imagens/jacare.webp"
+                class="card-img-top"
+                alt="p 2"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  É importante lembrar que esses animais são fundamentais para a saúde dos rios, córregos e lagos, pois ajudam a regular as populações de peixes e crustáceos dos quais se alimentam                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="imagens/tuiuiu.jpg"
+                class="card-img-top"
+                alt="p 3"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  O tuiuiú desempenha um papel vital no ecossistema alimentando-se de peixes, répteis, moluscos e pequenos mamíferos, prevenindo a decomposição de peixes mortos durante secas. Com seu bico forte e durável, o tuiuiú contribui para manter o equilíbrio do ecossistema.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 PANTANAL. Todos os direitos reservados.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz4fnFO9gybNDPWQh1kC5CMjOn1HX2ylUR4z8s31nSGt13IzKlkcHGL4M0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cb23UM6Kj7D1Z2qF2iDOrW0ZPyXTJEl5v8wWihVR72+1PZQci1HkCHhBO5vPyOxf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
